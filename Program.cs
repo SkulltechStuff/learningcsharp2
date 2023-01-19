@@ -3,7 +3,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(7+12);
+        int number1 = 7;
+        int number2 = 12;
+        
+        Console.WriteLine(number1+number2);
         Console.ReadKey(true);
     }
 }
