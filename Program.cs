@@ -3,6 +3,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        numbersSum();
+    }
+
+    static void numbersSum()
+    {
         double number1 = 7;
         double number2 = 12;
         Console.Write("Enter the first number: ");
@@ -13,6 +18,6 @@ class Program
         Console.WriteLine($"The sum of {number1} and {number2} is {number1+number2}");
         Console.WriteLine($"{number1} divided by {number2} is {number1/number2}");
         Console.Write("Press any key to close program");
-        Console.ReadKey(true);
+        Console.ReadKey(true);   
     }
 }
